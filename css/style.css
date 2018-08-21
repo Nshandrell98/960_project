@@ -1,26 +1,52 @@
 .top-bar ul li {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 0 6px 0 0;
+    margin: 0 3px 0 0;
     display: inline;
     margin-right: 10px;
+    text-align: right;
+    border-right: 1px solid #5e7b97;
+
+
 }
 body {
     background-color: rgb(240, 240, 240);
+    align-content: center;
+}
+.dots {
+    margin-left: 460px;
+}
+.head_nav ul {
+    float: right;
 }
 .top-bar a {
-    color: #325373;
+    color: #5e7b97;
     text-decoration: none;
 }
 .top-bar {
     background-color: #131d29;
 }
-
+.logo {
+    margin: 20px 0 15px 0;
+}
+.btn {
+    background-color: #0f1b24;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    border-radius: 5px;
+}
 .second-bar ul {
     list-style: none;
-    padding: 0;
+    padding: 35px 0  5px 0;
+    text-align: right;
+    margin: 0 3px 0 ;
+    float: right 35px
 }
-
+.btn:hover {
+    background-color: orange;
+}
 .second-bar li {
 
     display: inline;
@@ -39,11 +65,6 @@ body {
 .big-picture {
     border-radius: 10px;
 }
-.third-row button {
-    background-color: #131d29;
-    color: #fff;
-    border-radius: 5px;
-}
  .fourth-row li.align-left {
     float: left;
     margin-right: 10px;
@@ -53,31 +74,54 @@ body {
     background: linear-gradient(to bottom, #253f58 1%,#0f1b24 100%);
     color: #fff;
 }
-
+.third-row {
+    padding-bottom: 20px;
+}
 .bottom-row {
     background: #325373;
     background: linear-gradient(to bottom, #253f58 1%,#0f1b24 100%);
     color: #fff;
+    list-style: none;
 }
 .bottom-row ul a {
     color: #fff;
     text-decoration: none;
+
 }
 .bottom-row p{
     color: #55789b
 }
+.bottom-row li {
+    list-style: none;
+
+}
+
 .bottom-row button {
     color: #fff;
     background-color: #172331
 }
 .news li {
     list-style: none;
-
+}
+.news p{
+    margin:0 0 15px;
 }
 .very-bottom {
     background-color: #0f1b24;
     color: #fff;
 }
 .copyright {
-    background-color: #0f1b24;
+    background-color: #0b151d;
+}
+.strong-p p{
+    color: #fff;
+}
+.fourth-row li {
+    list-style: none;
+    position: relative; right: 40px;
+
+}
+.align-left {
+    float: left;
+    clear: left;
 }
