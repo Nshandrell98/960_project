@@ -9,7 +9,7 @@
 
 
 }
-.top-bar .help{
+.top-bar .head_nav .help{
     border-right: none;
 }
 body {
@@ -77,7 +77,6 @@ body {
 }
 .third-row {
     border-color: rgb(107, 107, 107);
-    border-style: solid;
     border-width: 1px;
     margin-bottom: 20px;
 }
@@ -112,7 +111,8 @@ body {
 
 .bottom-row button {
     color: #fff;
-    background-color: #172331
+    background-color: #172331;
+    margin-bottom: 10px;
 }
 .news li {
     list-style: none;
@@ -129,6 +129,7 @@ body {
 }
 .copyright {
     background-color: #0b151d;
+    margin-top: 10px;
 }
 .strong-p p{
     color: #fff;
